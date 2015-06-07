@@ -118,7 +118,7 @@ public class Server
 				
 			}
 			totalFileSize += packetLength;
-			System.out.println("<=========totalFileSize is :"+totalFileSize+"===========>");
+			System.out.println("<=========totalFileSize is :"+totalFileSize+"==========>");
 			offset +=10240;
 		}//end of for loop
 	}
