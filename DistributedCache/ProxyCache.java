@@ -389,7 +389,7 @@ public class ProxyCache {
 			Socket peer = new Socket(address, ip);
 			DataOutputStream toPeer = new DataOutputStream(
 					peer.getOutputStream());
-			toPeer.writeBytes(request.toString());// we need only URL
+			toPeer.writeBytes(request.toString());
 			return peer;
 		} catch (UnknownHostException e) {
 			System.out.println("Unknown host: " + request.getHost());
