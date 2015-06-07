@@ -467,7 +467,7 @@ public class DNSTcp {
 			// Integer intgr = new Integer(decimal);
 			bin = Integer.toBinaryString(decimal);
 		}
-		// System.out.println("bin"+bin);
+		
 		return bin;
 	}
 
